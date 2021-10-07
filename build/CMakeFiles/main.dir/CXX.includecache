@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wangch/go_cpp/mymcts/include/board.hpp
+vector
+-
+iostream
+-
+
+/home/wangch/go_cpp/mymcts/include/mcts.hpp
+board.hpp
+/home/wangch/go_cpp/mymcts/include/board.hpp
+node.hpp
+/home/wangch/go_cpp/mymcts/include/node.hpp
+random
+-
+memory
+-
+
+/home/wangch/go_cpp/mymcts/include/node.hpp
+vector
+-
+random
+-
+algorithm
+-
+board.hpp
+/home/wangch/go_cpp/mymcts/include/board.hpp
+
+/home/wangch/go_cpp/mymcts/src/mcts.cpp
+../include/mcts.hpp
+/home/wangch/go_cpp/mymcts/include/mcts.hpp
+

@@ -1,0 +1,3 @@
+/home/wangch/go_cpp/mymcts/build/CMakeFiles/rebuild_cache.dir
+/home/wangch/go_cpp/mymcts/build/CMakeFiles/edit_cache.dir
+/home/wangch/go_cpp/mymcts/build/CMakeFiles/main.dir
